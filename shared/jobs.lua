@@ -124,17 +124,6 @@ QBShared.Jobs = {
             },
         },
 	},
-     ['bus'] = {
-		label = 'Bus',
-		defaultDuty = true,
-		offDutyPay = false,
-		grades = {
-            ['0'] = {
-                name = 'Driver',
-                payment = 50
-            },
-		},
-	},
 	['cardealer'] = {
 		label = 'Vehicle Dealer',
 		defaultDuty = true,
@@ -160,6 +149,34 @@ QBShared.Jobs = {
                 name = 'Manager',
 				isboss = true,
                 payment = 150
+            },
+        },
+	},
+    ['pdmcardealer'] = {
+		label = 'PDM Vehicle Dealer',
+		defaultDuty = true,
+		offDutyPay = false,
+		grades = {
+            ['0'] = {
+                name = 'Recruit',
+                payment = 250
+            },
+			['1'] = {
+                name = 'Showroom Sales',
+                payment = 325
+            },
+			['2'] = {
+                name = 'Business Sales',
+                payment = 400
+            },
+			['3'] = {
+                name = 'Finance',
+                payment = 525
+            },
+			['4'] = {
+                name = 'Manager',
+				isboss = true,
+                payment = 1500
             },
         },
 	},
@@ -213,17 +230,6 @@ QBShared.Jobs = {
             },
         },
 	},
-	['reporter'] = {
-		label = 'Reporter',
-		defaultDuty = true,
-		offDutyPay = false,
-		grades = {
-            ['0'] = {
-                name = 'Journalist',
-                payment = 50
-            },
-        },
-	},
 	['trucker'] = {
 		label = 'Trucker',
 		defaultDuty = true,
@@ -257,25 +263,25 @@ QBShared.Jobs = {
             },
         },
 	},
-	['vineyard'] = {
-		label = 'Vineyard',
+    ['pilot'] = {
+		label = 'Pilot',
 		defaultDuty = true,
 		offDutyPay = false,
 		grades = {
             ['0'] = {
-                name = 'Picker',
-                payment = 50
+                name = 'Pilot',
+                payment = 2500
             },
         },
 	},
-	['hotdog'] = {
-		label = 'Hotdog',
+    ['lumberjack'] = {
+		label = 'Lumberjack',
 		defaultDuty = true,
 		offDutyPay = false,
 		grades = {
             ['0'] = {
-                name = 'Sales',
-                payment = 50
+                name = 'Tree Surgeon',
+                payment = 250
             },
         },
 	},
